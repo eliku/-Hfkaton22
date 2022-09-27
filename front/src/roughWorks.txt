@@ -1,0 +1,24 @@
+App Structure
+-----------------
+
+* Structure
++---* action
+|   |
+|   |-- api.js (handle all http request)
+|   |-- dCandidate.js (Redux actions & action creators)
+|   |-- store.js (configure redux store)
+|  
++---* components
+|   |
+|   |-- DCandidateForm.js (form operations)
+|   |-- Candidates.js (list of records)
+|   |-- useForm.js (handles common form operations)
+|  
++---* reducers
+|   |
+|   |-- Candidates.js
+|   |-- index.js
+| 
+|-- App.js
+|-- index.js
+|-- index.css
